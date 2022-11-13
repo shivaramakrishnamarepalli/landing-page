@@ -124,25 +124,64 @@ body{
 .text3{
     font-size: 36px;
     color: #1F2937;
-    padding:50px;
-    margin: 100px;
+    padding:20px;
+    margin: 30px;
+    font-style: light italic;
 }
 
 .text4{
     font-size: 36px;
     color: #1F2937;
     margin-left: 200px;
+    font-style: light italic;
 }
 
 .third-portion{
-    background-color:#3882F6; 
+    background-color:#E5E7EB; 
 }
 
 
+/* fourth part */
 
+.fourth-portion{
+    display: flex;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    flex-shrink: 1;
+}
 
+button{
+    background-color: #3882F6;
+    outline: white solid 2px;
+    flex: none;
+    width: 90px;
+    height: 30px;
+}
+.text6{
+    margin-bottom: 10px;
+    color:#F9FAf8 ;
+    flex-shrink: 1;
+}
+.text7{
+    color: #E5E7EB;
+}
 
-
+.footer{
+    background-color: #1F2937; 
+    font-size: 18px;
+    color:#E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex: 1;
+}
 
 
 
