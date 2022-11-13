@@ -1,0 +1,58 @@
+.logo{
+    height: 50px;
+    width: 50px;
+    flex: 0;
+}
+
+.header{
+    display: flex;
+    flex:0 1 auto;
+    background-color: #1F2937; 
+    font-size: 18px;
+    color:#E5E7EB; 
+}
+
+a{
+    text-decoration: none;
+    padding: 6px;
+    color: #E5E7EB;
+}
+
+.right{
+    display: flex;
+    flex: 1 1 auto;
+    width: 100px;
+    padding: 8px;
+}
+
+.sidebar{
+    flex: 0 1 auto;
+    width: 100px;
+    height:200px;
+}
+
+.first{
+    display: flex;
+    margin: 8px;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.second{
+    outline:white dotted 6px;
+    margin:8px;
+    flex-grow: 1;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    width: 100px;
+    padding: 8px;
+}
