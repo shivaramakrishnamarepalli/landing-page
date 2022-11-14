@@ -73,6 +73,8 @@ a{
     flex: 1 1 auto;
     color:rgb(31, 202, 83);
     margin-left: 30px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .red{
@@ -92,8 +94,16 @@ img{
 body{
     display: flex;
     flex-direction: column;
-    flex: 0 1 auto;
+    flex: 1 1 auto;
+    margin: 0;
 }
+
+.headers{
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: fit-content;
+}
+
 
 /* second portion */
 
@@ -103,6 +113,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex: 1 1 auto;
 }
 
 .pictext{
@@ -119,6 +130,13 @@ body{
     margin-left: 60px;
 }
 
+.pictext img{
+    border-radius: 20px;
+    outline: black solid 2px;
+    
+}
+
+
 
 /* Third portion */
 .text3{
@@ -127,6 +145,8 @@ body{
     padding:20px;
     margin: 30px;
     font-style: light italic;
+    text-align: center;
+    justify-content: center;
 }
 
 .text4{
@@ -145,15 +165,15 @@ body{
 
 .fourth-portion{
     display: flex;
-    margin-top: 50px;
+    margin: 50px 200px 50px 200px;
     padding: 30px;
     background-color: #3882F6;
     justify-content: space-around;
     align-items: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 50px;
     flex-shrink: 1;
+    min-width: 200px;
+    min-height: 100px;
+    border-radius: 50px;
 }
 
 button{
